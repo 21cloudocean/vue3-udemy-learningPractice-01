@@ -20,6 +20,9 @@ const app = Vue.createApp({
       } else {
         return this.courseGoalB
       }
+    },
+    add(num) {
+      return (this.count += num)
     }
   }
 })
