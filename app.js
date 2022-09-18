@@ -6,7 +6,7 @@ const app = Vue.createApp({
     return {
       courseGoal: 'Learn VUE better',
       courseGoalA: content,
-      courseGoalB: content2,
+      courseGoalB: '<h2 style="color:red">Be Amazing!</h2>',
       vueLink: link
     }
   },

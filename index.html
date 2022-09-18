@@ -20,7 +20,8 @@
       <h2>My Course Goal</h2>
       <p>{{courseGoal}}</p>
       <p>click this <a v-bind:href="vueLink">link</a> to learn more</p>
-      <p>Methods Learning : {{outputGoal()}}</p>
+      <!-- <p>Methods Learning : {{outputGoal()}}</p> -->
+      <p v-html="outputGoal()"></p>
     </section>
   </body>
 </html>
