@@ -7,7 +7,8 @@ const app = Vue.createApp({
       courseGoal: 'Learn VUE better',
       courseGoalA: content,
       courseGoalB: '<h2 style="color:red">Be Amazing!</h2>',
-      vueLink: link
+      vueLink: link,
+      count: Math.ceil(Math.random() * 9)
     }
   },
   methods: {
